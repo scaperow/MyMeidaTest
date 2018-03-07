@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>  
+  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+  
+    android:orientation="vertical"  
+  
+    android:layout_width="fill_parent"  
+  
+    android:layout_height="fill_parent"  
+  
+    >  
+  
+<TextView    
+  
+    android:id="@+id/mytextview"  
+  
+    android:layout_width="fill_parent"   
+  
+    android:layout_height="wrap_content"   
+  
+    android:text="没有播放任何声音"  
+  
+    />  
+  
+    <Button   
+  
+    android:id="@+id/button1"  
+  
+    android:layout_width="fill_parent"   
+  
+    android:layout_height="wrap_content"   
+  
+    android:text="使用Media播放声音"  
+  
+    />  
+  
+    <Button    
+  
+    android:id="@+id/button2"  
+  
+    android:layout_width="fill_parent"   
+  
+    android:layout_height="wrap_content"   
+  
+    android:text="暂停Media播放声音"  
+  
+    />  
+  
+    <Button    
+  
+    android:id="@+id/button3"  
+  
+    android:layout_width="fill_parent"   
+  
+    android:layout_height="wrap_content"   
+  
+    android:text="使用SoundPool播放声音"  
+  
+    />  
+  
+    <Button    
+  
+    android:id="@+id/button4"  
+  
+    android:layout_width="fill_parent"   
+  
+    android:layout_height="wrap_content"   
+  
+    android:text="暂停SoundPool播放声音"  
+  
+    />  
+  
+</LinearLayout>  
